@@ -5,19 +5,19 @@
 
   
   height: 94vh;
-  width: 98%;
+  width: 95vw;
   margin: 15px auto;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 5px;
 }
-.class-id-div
+.class-id-div-information
 {
   margin:auto;
   width: 25vw;
   height: 85vh;
-  min-width: 200px;
+  min-width: 300px;
   min-height: 400px;
 }
 .class-banner,.class-dados
