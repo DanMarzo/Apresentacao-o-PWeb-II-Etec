@@ -7,9 +7,8 @@
   height: 94vh;
   width: 95vw;
   margin: 15px auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 50% 50%;
   border-radius: 5px;
 }
 .class-id-div-information
