@@ -23,17 +23,12 @@
   background-color: rgb(197, 197, 197);
   border-radius: 10px;
 }
-.class-div-dadosPessoa h2 {
+.class-div-dadosPessoa h3 {
   text-align: center;
-  padding: 10px;
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
-  background-color: white;
-  margin: 0 0 0 0;
 }
 .class-div-dadosPessoa p {
   text-align: justify;
-  margin: 5% 10px;
+  margin: 10px 10px; 
 }
 .class-banner,.class-div-contatos
 {
