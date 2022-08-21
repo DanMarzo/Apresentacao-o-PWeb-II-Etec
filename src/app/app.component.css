@@ -111,10 +111,16 @@
 {
   height: 140px;
   width: 140px;
+  border: none;
   margin-bottom: 15px;
   border-radius: 50%;
-  border: 1px solid #000000;
-  background-color: #ffffff;
+}
+.class-div-foto img
+{
+  height: 140px;
+  width: 140px;
+  border: none;
+  border-radius: 50%;
 }
 .class-transitionDan,.class-transitionThiago
 {
