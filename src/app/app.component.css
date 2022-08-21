@@ -3,8 +3,8 @@
 .class-div-container
 {
   /* Não é definitivo */
-  background-color: #1c1c1c;  
-  height: 100vh;
+  background-color: #2c2c2c;  
+  height: 94.5vh;
   width: 95vw;
   margin: 15px auto;
   display: grid;
@@ -14,15 +14,28 @@
 .class-id-div-information, .class-div-dadosPessoa
 {
   margin:auto;
-  width: 25vw;
-  height: 85vh;
+  width: 10vw;
+  height: 80vh;
   min-width: 300px;
-  min-height: 400px;
+  min-height: 300px;
 }
+.class-id-div-information{color: white;}
 .class-div-dadosPessoa
 {
-  background-color: rgb(59, 124, 180);
+  background-color: rgb(197, 197, 197);
   border-radius: 10px;
+}
+.class-div-dadosPessoa h2 {
+  text-align: center;
+  padding: 10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background-color: white;
+  margin: 0 0 0 0;
+}
+.class-div-dadosPessoa p {
+  text-align: justify;
+  margin: 5% 10px;
 }
 .class-banner,.class-div-contatos
 {
@@ -30,21 +43,26 @@
 }
 .class-div-contatos
 {
-  background-color: #683131;
+  background-color: #1c1c1c;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   display: grid;
   grid-template-columns: 30% 70%;
   grid-template-rows: 30% 30% 30% 10%;
-  
 }
 .rede-social
 {
-  width: 50px;
-  height: 50px;
+  width: 35px;
+  height: 35px;
   grid-column-start: 1;
   align-self: center;
   justify-self: center;
+  padding: 10px;
+  border-right: 2px solid #2e2e2e;
+  border-bottom: 2px solid #2e2e2e;
+}
+.class-span-informacao {
+  margin: auto;
 }
 
 .class-banner
@@ -54,7 +72,7 @@
   flex-direction: column;
   align-self: center;
   /* flex-direction: column-reverse; */
-  background-color: #642929;
+  background-color: #242424;
   width: 100%;
 }
 .class-backFoto
@@ -64,7 +82,7 @@
   justify-content: center;
   width: 100%;
   height: 80%;
-  background-color: #631717;
+  background-color: rgb(51, 51, 51);
 }
 
 .class-banner ,.class-backFoto {
@@ -76,7 +94,6 @@
 {
   width: 100%;
   height: 20%;
-  background-color: aquamarine;
 }
 .class-section-nameSpace span
 {
@@ -96,6 +113,6 @@
   width: 140px;
   margin-bottom: 15px;
   border-radius: 50%;
-  border-bottom: 1px solid #000000;
+  border: 1px solid #000000;
   background-color: #ffffff;
 }
