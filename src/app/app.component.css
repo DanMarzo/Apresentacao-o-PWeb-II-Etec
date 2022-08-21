@@ -1,9 +1,7 @@
 .class-div-container
 {
   /* Não é definitivo */
-  background-color: #1c1c1c;
-
-  
+  background-color: #1c1c1c;  
   height: 94vh;
   width: 95vw;
   margin: 15px auto;
@@ -33,6 +31,7 @@
 {
   display: flex;
   justify-content:center;
+  flex-direction: column;
   align-self: center;
   /* flex-direction: column-reverse; */
   background-color: #642929;
@@ -44,7 +43,7 @@
   align-items: flex-end;
   justify-content: center;
   width: 100%;
-  height: 75%;
+  height: 80%;
   background-color: #631717;
 }
 
@@ -52,6 +51,12 @@
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   border-bottom: 1px solid #000000;
+}
+.class-section-nameSpace
+{
+  width: 100%;
+  height: 20%;
+  background-color: aquamarine;
 }
 
 .class-div-foto
