@@ -60,9 +60,10 @@
   border-bottom: 2px solid #2e2e2e;
 }
 .class-span-informacao {
-  margin: auto;
+  align-self: center;
   height: 50px;
-  width: 120px;
+  width: auto;
+  text-align: center;
 }
 .class-banner
 {
@@ -144,8 +145,10 @@
 }
 .class-a-linkSocial
 {
+  display: block;
   color: #ffffff;
   text-decoration: none;
-  background-color: aqua;
   line-height: 50px;
+  background-color: #000000;
+  width: 90%;
 }
