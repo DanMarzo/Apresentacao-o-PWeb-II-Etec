@@ -1,6 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed:wght@300;400&family=Mingzat&family=Nunito:wght@300;400&display=swap');
 
-
-*{font-family: sans-serif;}
+*{font-family: 'Encode Sans Semi Condensed', sans-serif;}
 
 .class-div-container
 {
@@ -172,4 +172,5 @@
   font-size: 20px;
   transition: 0.6s;
   transform: scale(1);
+  font-weight: bold;
 }
